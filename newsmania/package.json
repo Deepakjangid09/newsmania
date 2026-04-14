@@ -1,0 +1,32 @@
+{
+  "name": "newsmania",
+  "version": "1.0.0",
+  "description": "Newsmania - A Newspaper Web App aggregating headlines from multiple sources",
+  "keywords": [
+    "news",
+    "aggregator",
+    "newspaper",
+    "headlines"
+  ],
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "rss-parser": "^3.13.0",
+    "html-pdf-node": "^1.0.8",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
